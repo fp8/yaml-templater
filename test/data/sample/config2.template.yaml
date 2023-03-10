@@ -1,0 +1,8 @@
+name: id-${{ENV.FP8PROJKEY}}
+database:
+  connection:
+    driver: org.postgresql.Driver
+grpc:
+  - server: apm-dev.fp8.me
+    useSSL: true
+projectId: ${{ENV.FP8PROJKEY}}

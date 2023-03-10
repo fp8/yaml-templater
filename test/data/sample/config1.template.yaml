@@ -1,0 +1,6 @@
+name: id-project2
+database:
+  connection:
+    user: id-project2-user
+projectId: project2
+url: https://www.google.com

@@ -1,0 +1,10 @@
+name: configA-ymi2Vu2ZFX
+database:
+  server: dbserver
+  connection:
+    type: JDBC
+grpc:
+  - server: tsgrpcdev.fp8.me
+    useSSL: true
+  - server: apm-dev.fp8.me
+    useSSL: false

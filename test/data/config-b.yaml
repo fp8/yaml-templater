@@ -1,0 +1,10 @@
+name: configB-TKuNFwIosI
+database:
+  connection:
+    driver: org.postgresql.Driver
+  secret: pWTbQCRBIL
+projectId: TKuNFwIosI
+url: https://farport.co/?id=123&type=templater
+grpc:
+  - server: apm-dev.fp8.me
+    useSSL: true

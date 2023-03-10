@@ -1,0 +1,16 @@
+name: id-TKuNFwIosI
+projectId: TKuNFwIosI
+database:
+  server: dbserver
+  connection:
+    user: id-project2-user
+    type: JDBC
+    driver: org.postgresql.Driver
+grpc:
+  - server: apm-dev.fp8.me
+    useSSL: false
+  - server: tsgrpcdev.fp8.me
+    useSSL: true
+  - server: apm-dev.fp8.me
+    useSSL: true
+url: https://www.google.com

@@ -1,0 +1,12 @@
+name: main
+projectId: 
+database:
+  server: dbserver
+  connection:
+    user:
+    type: JDBC
+grpc:
+  - server: apm-dev.fp8.me
+    useSSL: false
+  - server: tsgrpcdev.fp8.me
+    useSSL: true

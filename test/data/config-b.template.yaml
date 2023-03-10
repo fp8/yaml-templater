@@ -1,0 +1,10 @@
+name: configB-${{ENV.FP8PROJKEY}}
+database:
+  connection:
+    driver: org.postgresql.Driver
+  secret: ${{entryA}}
+projectId: ${{ENV.FP8PROJKEY}}
+url: ${{url}}
+grpc:
+  - server: apm-dev.fp8.me
+    useSSL: true
