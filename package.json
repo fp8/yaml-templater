@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "description": "Yaml Templater",
     "main": "lib/index.js",
+    "repository": "https://github.com/fp8/yaml-templater",
     "bin": {
         "yaml-templater": "lib/index.js"
     },
